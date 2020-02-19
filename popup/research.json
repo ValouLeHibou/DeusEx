@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "figure",
+    "navigator": "google",
+    "pageSearch": "5",
+    "keywords": ["manga", "anime", "japan"],
+    "oldResults": ["http://yolo.com", "https://toto.fr"]
+  },
+  {
+    "id": "2",
+    "title": "toto",
+    "navigator": "google",
+    "pageSearch": "5",
+    "keywords": ["manga", "anime", "japan"],
+    "oldResults": ["http://yolo.com", "https://toto.fr"]
+  }
+]
