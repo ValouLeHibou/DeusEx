@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>DeusEx</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="The Explorer's Explorer" content="DeusEx" />
+        <meta name="author" lang="fr" content="Valentin GUILBAUD [ValouLeHibou]">
+        <link rel="stylesheet" href="static/index.css" />
+        <!-- Compiled and minified CSS/JS -->
+        <link rel="stylesheet" href="static/materializecss/materialize.min.css"/>
+        <script src="static/materializecss/materialize.min.js"></script>
+    </head>
+
+    <body>
+        <div>DeusEx</div>
+        <form action="dashboard.html" id="form-explorer">
+            <div>
+                <label for="id">Search Id :</label>
+                <input type="text" id="id" name="id" disabled>
+            </div>
+            <div>
+                <label for="title">Research Title :</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div>
+                <label for="keyword">My Keywords :</label>
+                <input type="text" id="keyword" name="keyword">
+            </div>
+            <div>
+                <label for="schedule">Run every X Hour(s) (When FireFox is open) :</label>
+                <input type="text" id="schedule" name="schedule">
+            </div>
+            <a href="dashboard.html" class="waves-effect waves-light btn grey">Back</a>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Create the new Explorer</button>
+        </form>
+        <script src="js/new.js"></script>
+    </body>
+</html>
+
+

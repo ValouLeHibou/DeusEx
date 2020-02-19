@@ -1,0 +1,43 @@
+html {
+    border: 2px solid dodgerblue;
+    overflow: visible;
+}
+
+body {
+    padding: 10px;
+}
+
+html, body {
+    background-color: #444444;
+    color: white;
+    max-width: 600px;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: large;
+}
+
+#search {
+    text-align: center;
+}
+
+/* ##### Welcome.html ##### */
+
+#welcome {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#title {
+    font-size: 2em;
+}
+
+#warning {
+    color: red;
+}
+
+#keyButton {
+    font-weight: bold;
+}
+
+#apiKey {
+    width: 90%;
+}

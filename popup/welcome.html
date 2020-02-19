@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>DeusEx</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="The Explorer's Explorer" content="DeusEx" />
+        <meta name="author" lang="fr" content="Valentin GUILBAUD [ValouLeHibou]">
+        <link rel="stylesheet" href="static/index.css" />
+        <!-- Compiled and minified CSS/JS -->
+        <link rel="stylesheet" href="static/materializecss/materialize.min.css"/>
+        <script src="static/materializecss/materialize.min.js"></script>
+    </head>
+    <body id="welcome">
+        <p id="title">Welcome to DeusEx</p>
+        <p>This plugin needs your personal google search API key.</p>
+        <p>
+            Go to <a href="https://developers.google.com/custom-search/v1/overview">this URL</a> and click on <span id="keyButton">Get a Key</span> button to create it.<br>
+            Then paste it bellow :
+        </p>
+        <form action="dashboard.html" id="form-key">
+            <input type="text" id="apiKey" name="apiKey">
+            <button class="btn waves-effect waves-light blue" type="submit" name="action">Validate my API Key</button>
+        </form>
+        <p>For more information, go to the <a href="https://github.com/ValouLeHibou/DeusEx">Github repository</a></p>
+        <p id="warning">WARNING ! This plugin use cookies to store datas, remove cookies reset your configuration.</p>
+    </body>
+</html>
